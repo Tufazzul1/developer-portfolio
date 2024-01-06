@@ -105,7 +105,7 @@ nav a {
 
 /* main section styles */
 main {
-    max-width: 1140px;
+    max-width: 1300px;
     margin: o auto;
 }
 
@@ -116,6 +116,7 @@ main {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px;
+    
 }
 
 .about-info-container {
