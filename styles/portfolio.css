@@ -18,7 +18,7 @@ body {
 
 }
 
-.btn-primary :hover{
+.btn-primary :hover {
     background-color: #FFF;
     color: #181818;
 }
@@ -75,11 +75,11 @@ nav a {
     background-image: url("/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    
+
 }
 
-img .background-image{
-   float: left;
+img .background-image {
+    float: left;
 }
 
 .banner {
@@ -93,7 +93,7 @@ img .background-image{
 
 .banner-content {
     max-width: 500px;
-   
+
 }
 
 .bannner .profile-picture {
@@ -123,7 +123,7 @@ main {
 
 }
 
-main section{
+main section {
     margin-top: 130px;
 }
 
@@ -169,8 +169,13 @@ main section{
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px 33px;
-    color: #474747  ;
+    color: #474747;
 }
 
 /* resume related styles */
 
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
