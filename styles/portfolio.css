@@ -72,9 +72,9 @@ nav a {
 
 .header {
     background: #FFF8F3;
-    background-image: url("/images/header_bg.png");
+    background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right;  
 
 }
 
@@ -87,8 +87,14 @@ img .background-image {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("/images/developer.png");
-    background-repeat: no-repeat;
+    position: relative;
+    /* background-image: url("../images/developer.png");
+    background-repeat: no-repeat; */
+}
+.background-image{
+    position: absolute;
+    top: -120px;
+    left: 20px;
 }
 
 .banner-content {
@@ -162,6 +168,11 @@ main section {
     display: flex;
     gap: 25px;
     margin-top: 50px;
+}
+
+.skill:hover{
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .skills-contianer .skill {
