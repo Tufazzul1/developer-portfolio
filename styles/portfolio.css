@@ -74,7 +74,7 @@ nav a {
     background: #FFF8F3;
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: bottom right;  
+    background-position: bottom right;
 
 }
 
@@ -91,7 +91,11 @@ img .background-image {
     /* background-image: url("../images/developer.png");
     background-repeat: no-repeat; */
 }
-.background-image{
+
+.profile-picture{
+    width: 500px;
+}
+.background-image {
     position: absolute;
     top: -120px;
     left: 20px;
@@ -170,7 +174,7 @@ main section {
     margin-top: 50px;
 }
 
-.skill:hover{
+.skill:hover {
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -191,25 +195,25 @@ main section {
     font-weight: 700;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 70px;
     color: #757575;
     padding: 10px;
 }
 
-.resume-column-title{
+.resume-column-title {
     font-size: 30px;
     font-weight: 700;
 }
 
-.resume-item-title{
+.resume-item-title {
     font-size: 25px;
     font-weight: 700;
 }
 
 /* footer-styles */
-footer{
+footer {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
@@ -217,21 +221,22 @@ footer{
     margin-top: 100px;
 }
 
-.footer-column{
+.footer-column {
     width: 50%;
 }
 
-.social-links a{
+.social-links a {
     margin-right: 25px;
     margin-top: 30px;
 }
 
-.section-description{
+.section-description {
     text-align: left;
 }
 
-.contact input[type="text"] , [type="email"],
-textarea{
+.contact input[type="text"],
+[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
@@ -240,4 +245,74 @@ textarea{
     border-radius: 5px;
     border: none;
     width: 100%;
+}
+
+
+/* responsive styles */
+
+/* mobile devices */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+    nav {
+        flex-direction: column;
+    }
+    .nav ul{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .header{
+        background-image: none;
+       
+    }
+    .banner{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .profile-picture{
+        width: 100%;
+    }
+    .background-image{
+        display: none;
+    }
+    .about{
+        padding: 20px;
+        margin: 0px;
+        flex-direction: column;
+    }
+
+
+    .skills-contianer {
+        flex-direction: column;
+    }
+
+    #what-i-do-description {
+        padding: 20px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    [type="email"],
+    textarea {
+        width: 80%;
+    }
+
 }
