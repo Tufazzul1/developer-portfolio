@@ -286,6 +286,10 @@ textarea {
         flex-direction: column;
     }
 
+    .about-info-container{
+        flex-direction: column;
+    }
+
 
     .skills-contianer {
         flex-direction: column;
